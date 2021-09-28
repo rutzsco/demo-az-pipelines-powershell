@@ -16,6 +16,7 @@ steps:
     azureSubscription: 'Demo Account'
     ScriptType: 'InlineScript'
     Inline: |
+      Install-Module -Name Az -Force
       import-module az;
       Update-AzPostgreSqlServer -Name TBD -ResourceGroupName TBD -ReplicationRole None;
     preferredAzurePowerShellVersion: '6.4.0'

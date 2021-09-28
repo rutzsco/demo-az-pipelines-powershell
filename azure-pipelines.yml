@@ -16,7 +16,7 @@ steps:
     azureSubscription: 'Demo Account'
     ScriptType: 'InlineScript'
     Inline: |
-      Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+      Install-Module -Name Az.PostgresSql -Scope CurrentUser -Repository PSGallery -Force
     preferredAzurePowerShellVersion: '6.4.0'
 - task: AzurePowerShell@5
   inputs:

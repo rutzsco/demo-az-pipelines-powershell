@@ -17,7 +17,7 @@ steps:
     ScriptType: 'InlineScript'
     Inline: |
       Get-Module -ListAvailable
-      Install-Module -Name Az.PostgresSql -Scope CurrentUser -Repository PSGallery -Force
+      Install-Module -Name Az.PostgreSql -Scope CurrentUser -Force
     preferredAzurePowerShellVersion: '6.4.0'
 - task: AzurePowerShell@5
   inputs:

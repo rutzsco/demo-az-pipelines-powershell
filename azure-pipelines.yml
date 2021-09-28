@@ -16,4 +16,4 @@ steps:
     azureSubscription: 'Demo Account'
     ScriptType: 'InlineScript'
     Inline: 'Install-Module Az.PostgreSql'
-    preferredAzurePowerShellVersion: '6.13.1'
+    preferredAzurePowerShellVersion: '6.4.0'
